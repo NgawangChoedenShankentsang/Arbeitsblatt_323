@@ -38,12 +38,11 @@ const gradeMap = {
   console.log(studentFeedback);
 
 
-const R = require('rambda.min.js');
+const R = require('./rambda.min.js');
 const array = ['apple', 'orange', 'banana'];
 const addPrefix = R.curry((prefix, element) => `${prefix}${element}`);  
 const prefixedArray = R.map(addPrefix('fruit_'), array);
 console.log(prefixedArray); 
-
 
 // Impure function
 function arrayLength(arr) {

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calories Counter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+        <img id="logo" src="calorie.png" alt="logo">
+        <h1 id="title">Calories Counter</h1>
+    </header>
+    
+    <form>
+      <label for="name">Meal</label>
+      <input type="text" name="name" placeholder="Enter meal name..." required>
+      <label for="calories">Calories</label>
+      <input type="number" name="calories" min="0" placeholder="Enter calorires number..."required>
+      <input type="submit" value="save">
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Meal</th>
+          <th>Calories</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Here the menus are added -->
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td id="total">0</td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <footer>
+
+    </footer>
+    <script src="index.html"></script>
+  </body>
+</html>

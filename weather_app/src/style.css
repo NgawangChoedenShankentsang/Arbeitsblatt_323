@@ -1,0 +1,53 @@
+.container{
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+h1{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+input{
+  width: 300px;
+  padding: 5px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+button{
+  padding: 10px;
+  font-size: 1.1rem;
+  margin: 0 5px;
+  background-color: #00aced;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+table{
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td{
+  font-size: 1.1rem;
+  padding: 10px;
+}
+
+th{
+  background-color: #00aced;
+  color: #fff;
+}
+
+tr:nth-child(even){
+  background-color: #f5f5f5;
+}
